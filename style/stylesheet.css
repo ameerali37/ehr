@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+    position: relative;
+}
+
+#wrapper {
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main {
+	width:400px;
+	height:500px;
+	float:left;
+}
+
+#login {
+	width:300px;
+	float:left;
+	margin-left:50px;
+	border-radius:10px;
+	background-color:#06C;
+}
+
+h3 {
+	color:#ffffff;
+	font-family:Verdana;
+	margin-left:130px;
+	margin-top:10px;
+	font-weight:bold;
+}
+
+.color 
+{
+    color:White;
+}
+
+
+td {
+	font-family:Verdana;
+	font-size:14px;
+	
+}
+
+#tt1 {
+	width:170px;
+	height:25px;
+	border-radius:5px;r
+	border:1px solid #00F;
+}
+
+#tt2 {
+	width:170px;
+	height:25px;
+	border-radius:5px;
+	border:1px solid #00F;
+}
+.txt
+{
+  width:170px;
+	height:25px;
+	border-radius:5px;
+	border:1px solid #00F;
+}
+.btnclass
+{
+    border-radius:10px;
+    background-color:#49a8eb;
+    color:White;
+}
+.TxtRound
+{
+ border-radius:5px;   
+ height:25px;
+ border:1px solid #000000;
+}
+

@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Assembly="obout_Show_Net" Namespace="OboutInc.Show" TagPrefix="obshow" %>
+<%@ Register TagPrefix="oem" Namespace="OboutInc.EasyMenu_Pro" Assembly="obout_EasyMenu_Pro" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<link href="Styles/StyleSheet.css" rel="stylesheet1" type="text/css" />
+
+
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table width="100%">
+                <tr>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" Height="140px" 
+                            ImageUrl="~/img/Untitled-1.jpg" Width="100%" 
+                            
+                             />
+                    </td>
+                    </tr>
+                    </table>
+                    <table style="width: 100%">
+                    <tr>
+                    <td align="center">
+                    <obshow:Show id="Show1" runat="server" TransitionType="Scrolling"  ScrollingSpeed="1000" ScrollingStep="5"  ImagesShowPath="images/" Width="1000px" Height="200px"  >
+                                   
+                                    </obshow:Show>
+                    </td></tr>
+                   
+
+  
+</table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+
+            
+</html>

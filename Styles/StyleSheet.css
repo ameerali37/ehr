@@ -1,0 +1,33 @@
+﻿#item1
+{
+        background:url("styles/horizontal9/le_1/bg_em_1.jpg") repeat-x scroll center bottom #B6BECF !important;
+        border-left:1px solid #FFFFFF !important;
+        border-right:1px solid #FFFFFF !important;
+        color:#333333 !important;
+        cursor:pointer !important;
+        font-family:arial !important;
+        font-size:10px !important;
+        height:28px !important;
+        text-align:center !important;
+        width:80px !important;
+        }
+ #item1 .easyMenuItemLeftRoundCornerCell
+ {
+
+ }
+ #item1 .ParentItemContentCell
+ {
+        background-image:url("")
+ }
+ #item1 .ParentItemContentCellOver
+ {
+        background-image:url("")
+ }
+ #item1 .ParentItemSubMenuCell
+ {
+ }
+ #item1 .easyMenuItemRightRoundCornerCell
+ {
+ }
+body {
+}
